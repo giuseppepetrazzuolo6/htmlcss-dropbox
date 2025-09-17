@@ -1,74 +1,180 @@
 /*common*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: sans-serif;
+    min-width: 1200px;
 }
-.w-30{
+
+img {
+    max-width: 100%;
+}
+
+.w-30 {
     width: 30%;
 }
-.w-70{
+
+.w-70 {
     width: 70%;
+    position: relative;
 }
-.col{
+
+.col {
     width: 30%;
 }
-.col-w100{
+
+.col-w100 {
     width: 100%;
 }
-.col-3{
+
+.col-3 {
     width: 30%;
 }
+
 /*utilities*/
-.d-flex{
-    display:flex;
+:root {
+    --db-white: #ffffff;
+    --db-black: #000000;
+    --db-jumbotron: #b4d0e6;
+    --db-btn: #0061fe;
+
 }
-.wrap{
+
+.d-flex {
+    display: flex;
+}
+
+.wrap {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.container{
+
+.container {
     width: 70%;
     margin: auto;
 }
-.big-container{
+
+.big-container {
     width: 80%;
     margin: auto;
 }
-.justify-content{
+
+.justify-content {
     justify-content: space-between;
 }
+
+.align-items {
+    align-items: center;
+}
+
 /*debug*/
-.debug *{
+.debug * {
     border: 1px dashed;
 }
-.debug header{
+
+.debug header {
     background-color: blue;
     height: 100px;
 }
-.debug .container{
+
+.debug .container {
     background-color: pink;
     height: 500px;
 }
-.debug .w-30,.w-70{
+
+.debug .w-30,
+.debug .w-70 {
     background-color: aliceblue;
     height: 400px;
 }
-.debug .row{
+
+.debug .row {
     background-color: yellow;
     height: 400px;
 }
-.debug .col-3{
+
+.debug .col-3 {
     background-color: red;
     height: 200px;
 }
-.debug .col, .col-w100{
+
+.debug .col,
+.col-w100 {
     background-color: purple;
 }
-.debug footer{
+
+.debug footer {
     background-color: lightgreen;
     height: 400px;
+}
+
+/*header*/
+header {
+    padding: 20px 10px;
+    background-color: var(--db-white);
+
+    .align-items {
+        align-items: center;
+    }
+
+    a {
+        color: var(--db-black);
+        text-decoration: none;
+        padding: 5px;
+
+    }
+}
+
+.log-in{
+    background-color: var(--db-btn);
+    color: var(--db-white);
+}
+
+/*jumbotron*/
+#jumbotron {
+    background-color: var(--db-jumbotron);
+
+
+    h1 {
+        font-size: 70px;
+        padding-top: 100px;
+        padding-right: 70px;
+        padding-bottom: 50px;
+    }
+
+    p {
+        margin-bottom: 50px;
+        padding-right: 20px;
+        font-size: 18px;
+
+    }
+
+    .demo {
+        background-color: var(--db-btn);
+        padding: 10px;
+        color: var(--db-white);
+
+    }
+
+}
+
+.delete {
+    display: block;
+    margin-top: 50px;
+}
+
+.icon {
+    margin-top: 65px;
+    display: block;
+    font-size: 50px;
+    
+}
+.jumbo-img{
+    position: absolute;
+    top: 0;
+    max-width: 100%;
 }

@@ -7,3 +7,68 @@
 body{
     font-family: sans-serif;
 }
+.w-30{
+    width: 30%;
+}
+.w-70{
+    width: 70%;
+}
+.col{
+    width: 30%;
+}
+.col-w100{
+    width: 100%;
+}
+.col-3{
+    width: 30%;
+}
+/*utilities*/
+.d-flex{
+    display:flex;
+}
+.wrap{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.big-container{
+    width: 80%;
+    margin: auto;
+}
+.justify-content{
+    justify-content: space-between;
+}
+/*debug*/
+.debug *{
+    border: 1px dashed;
+}
+.debug header{
+    background-color: blue;
+    height: 100px;
+}
+.debug .container{
+    background-color: pink;
+    height: 500px;
+}
+.debug .w-30,.w-70{
+    background-color: aliceblue;
+    height: 400px;
+}
+.debug .row{
+    background-color: yellow;
+    height: 400px;
+}
+.debug .col-3{
+    background-color: red;
+    height: 200px;
+}
+.debug .col, .col-w100{
+    background-color: purple;
+}
+.debug footer{
+    background-color: lightgreen;
+    height: 400px;
+}

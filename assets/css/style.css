@@ -10,6 +10,25 @@ body {
     min-width: 1200px;
 }
 
+b {
+    color: var(--db-btn);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 70px;
+    padding-top: 100px;
+    padding-right: 70px;
+    padding-bottom: 50px;
+}
+
 img {
     max-width: 100%;
 }
@@ -25,10 +44,15 @@ img {
 
 .col {
     width: 30%;
+    border: 1px solid lightgray;
+    margin-top: 40px;
 }
 
 .col-w100 {
     width: 100%;
+    margin-top: 45px;
+    border: 1px solid lightgray;
+
 }
 
 .col-3 {
@@ -71,6 +95,13 @@ img {
     align-items: center;
 }
 
+.btn {
+    background-color: var(--db-btn);
+    padding: 10px;
+    color: var(--db-white);
+
+}
+
 /*debug*/
 .debug * {
     border: 1px dashed;
@@ -103,7 +134,7 @@ img {
 }
 
 .debug .col,
-.col-w100 {
+.debug .col-w100 {
     background-color: purple;
 }
 
@@ -129,34 +160,19 @@ header {
     }
 }
 
-.log-in{
+.log-in {
     background-color: var(--db-btn);
     color: var(--db-white);
 }
 
-/*jumbotron*/
+/*#jumbotron*/
 #jumbotron {
     background-color: var(--db-jumbotron);
-
-
-    h1 {
-        font-size: 70px;
-        padding-top: 100px;
-        padding-right: 70px;
-        padding-bottom: 50px;
-    }
 
     p {
         margin-bottom: 50px;
         padding-right: 20px;
         font-size: 18px;
-
-    }
-
-    .demo {
-        background-color: var(--db-btn);
-        padding: 10px;
-        color: var(--db-white);
 
     }
 
@@ -171,10 +187,90 @@ header {
     margin-top: 65px;
     display: block;
     font-size: 50px;
-    
+
 }
-.jumbo-img{
+
+.jumbo-img {
     position: absolute;
     top: 0;
     max-width: 100%;
+}
+
+/*#plane*/
+#plans {
+    margin-top: 100px;
+    border-top: 1px solid lightgray;
+
+    h2 {
+        font-size: 34px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    h3 {
+        padding-bottom: 20px;
+    }
+
+    label {
+        padding-right: 40px;
+    }
+
+}
+
+.option {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid lightgrey;
+
+
+}
+
+.type-plans {
+    padding: 20px;
+    position: relative;
+
+    p {
+        padding-top: 40px;
+        padding-right: 300px;
+    }
+}
+
+.price {
+
+    padding-bottom: 10px;
+    display: block;
+}
+
+.period {
+    color: lightgray;
+}
+
+.small-box {
+    padding: 40px 20px;
+}
+
+
+.characteristics {
+    padding-bottom: 20px;
+
+}
+
+.buy {
+    padding: 0 20px;
+
+    span {
+        display: block;
+        margin-bottom: 25px;
+    }
+
+}
+
+.office {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.info-plans {
+    padding: 50px 20px;
 }

@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dropbox</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -24,7 +27,7 @@
                 <a href="">Supporto</a>
                 <a href="">Contatta l'ufficio vendite</a>
                 <a href="">Accedi</a>
-                <a class="log-in">Inizia</a>
+                <a class="log-in" href="">Inizia</a>
             </nav>
         </div>
     </header>
@@ -40,7 +43,7 @@
                         <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso
                             posto. Dropbox Businnes è più di uno spazio di archiviazione sicuro: è un modo intelligente
                             e integrato per ottimizzare il flusso del lavoro esistente</p>
-                        <span class="btn demo">Inizia la tua prova gratuita</span>
+                        <span class="btn">Inizia la tua prova gratuita</span>
                         <span class="delete">Annulla in qualsiasi momento</span>
                         <span class="icon">&#129107</span>
                     </div>
@@ -49,32 +52,171 @@
                     </div>
                 </div>
             </div>
-
-
-
         </section>
         <!--/#jumbotron-->
-        <section id="plane">
+        <section id="plans">
             <div class="container">
-                <h2></h2>
+                <h2>Trova il piano businnes che fa per te</h2>
+                <label>
+                    <input type="radio" name="fatturazione" value="mensile" checked>
+                    Fatturazione mensile
+                </label>
+                <label>
+                    <input type="radio" name="fatturazione" value="annuale">
+                    Fatturazione annuale
+                </label>
                 <div class="row d-flex wrap">
                     <div class="col">
-
+                        <div class="option">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Singolo</span>
+                        </div>
+                        <div class="type-plans">
+                            <h3>Professional</h3>
+                            <strong class="price">&euro; 12.00</strong>
+                            <span class="period">/mese</span>
+                        </div>
+                        <div class="small-box">
+                            <div class="characteristics">
+                                <i class="fa-solid fa-user"></i>
+                                <span>1 Utente</span>
+                            </div>
+                            <div class="characteristics">
+                                <i class="fa-solid fa-folder"></i>
+                                <span>5 TB di spazio di archivazione sicuro</span>
+                            </div>
+                            <div class="characteristics">
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <span>Funzioni di produttività premium e condivisione file semplice e sicura</span>
+                            </div>
+                        </div>
+                        <div class="buy">
+                            <span class="btn">Prova gratuita per 30 giorni</span>
+                            <span>oppure <a href="">acquista ora</a></span>
+                        </div>
+                        <div class="info-plans">
+                            <Strong>Punti salienti del piano</Strong>
+                            <ul>
+                                <li>
+                                    <b>&check;</b> Invia file fino a 100 GB con Dropbox Transfert
+                                </li>
+                                <li>
+                                    <b>&check;</b> Cartelle offline su dispositivi mobili
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="col">
-
+                        <div class="option">
+                            <i class="fa-solid fa-people-group"></i>
+                            <span>Team</span>
+                        </div>
+                        <div class="type-plans">
+                            <h3>Advanced</h3>
+                            <strong class="price">&euro; 18.00</strong>
+                            <span class="period">/utente/mese</span>
+                        </div>
+                        <div class="small-box">
+                            <div class="characteristics">
+                                <i class="fa-solid fa-people-group"></i>
+                                <span>3 o più utenti</span>
+                            </div>
+                            <div class="characteristics">
+                                <i class="fa-solid fa-folder"></i>
+                                <span>Tutto lo spazio di cui ha bisogno il tuo team</span>
+                            </div>
+                            <div class="characteristics">
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <span>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo
+                                    team</span>
+                            </div>
+                        </div>
+                        <div class="buy">
+                            <span class="btn">Prova gratuita per 30 giorni</span>
+                            <span>oppure <a href="">acquista ora</a></span>
+                        </div>
+                        <div class="info-plans">
+                            <Strong>Punti salienti del piano</Strong>
+                            <ul>
+                                <li>
+                                    <b>&check;</b> Nessun limite di spazio per i file
+                                </li>
+                                <li>
+                                    <b>&check;</b> Cartelle offline su dispositivi mobili
+                                </li>
+                                <li>
+                                    <b>&check;</b> Risparmio del 50% rispetto alle iscrizioni singole
+                                </li>
+                                <li>
+                                    <b>&check;</b> Possibilità di inserire nuovi membri del team
+                                </li>
+                                <li>
+                                    <b>&check;</b> Gestione dei permessi in base ai ruoli
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="col">
-
+                        <div class="option">
+                            <i class="fa-solid fa-building"></i>
+                            <span>Azienda</span>
+                        </div>
+                        <div class="type-plans">
+                            <h3>Enterprise</h3>
+                            <strong class="price">Contattaci</strong>
+                            <span class="period">.</span>
+                        </div>
+                        <div class="small-box">
+                            <div class="characteristics">
+                                <i class="fa-solid fa-user"></i>
+                                <span>10 o più utenti</span>
+                            </div>
+                            <div class="characteristics">
+                                <i class="fa-solid fa-folder"></i>
+                                <span>Soluzioni personalizzabili per la tua azienda</span>
+                            </div>
+                            <div class="characteristics">
+                                <i class="fa-solid fa-share-nodes"></i>
+                                <span>Assistenza personalizata per aiutare gli amministratori in una gestione su larga
+                                    scala</span>
+                            </div>
+                        </div>
+                        <div class="buy">
+                            <span class="btn">Contattaci</span>
+                            <span>oppure <a href="">acquista ora</a></span>
+                        </div>
+                        <div class="info-plans">
+                            <Strong>Punti salienti del piano</Strong>
+                            <ul>
+                                <li>
+                                    <b>&check;</b> Cartelle offline su dispositivi mobili
+                                </li>
+                                <li>
+                                    <b>&check;</b> Servizio assistenza 24/h
+                                </li>
+                                <li>
+                                    <b>&check;</b> Possibilità di personalizzazione totale
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="col-w100">
-
+                        <div class="option">
+                            <i class="fa-solid fa-building"></i>
+                            <span>Azienda</span>
+                        </div>
+                        <div class="type-plans">
+                            <h3>Enterprise</h3>
+                            <strong>Contatta l'ufficio vendite per i prezzi</strong>
+                            <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella
+                                gestione su qualsiasi scala</p>
+                            <span class="btn office">Contatta l'ufficio vendite</span>
+                        </div>
                     </div>
                 </div>
             </div>
-
         </section>
-        <!--/#plane-->
+        <!--/#plans-->
         <section id="partner">
             <div class="d-flex container">
                 <div class="w-70">
@@ -85,7 +227,7 @@
                 </div>
             </div>
         </section>
-        <!--/#plane-->
+        <!--/#partner-->
         <section id="business">
             <div class="container">
                 <h2></h2>

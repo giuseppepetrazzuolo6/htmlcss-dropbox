@@ -55,10 +55,6 @@ img {
 
 }
 
-.col-3 {
-    width: 30%;
-}
-
 /*utilities*/
 :root {
     --db-white: #ffffff;
@@ -160,7 +156,7 @@ header {
     a {
         color: var(--db-black);
         text-decoration: none;
-        padding: 5px;
+        padding: 10px;
 
     }
 }
@@ -292,11 +288,27 @@ header {
             margin-bottom: 20px;
         }
 
-        button{
+        button {
             padding: 10px 15px;
             background-color: var(--db-white);
             margin-top: 30px;
         }
 
+    }
+}
+
+/*businnes*/
+.col-3 {
+    width: 30%;
+    margin-top: 30px;
+
+    h3 {
+        margin-top: 5px;
+        margin-bottom: 30px;
+        padding-right: 30px;
+    }
+
+    p {
+        padding-right: 40px;
     }
 }

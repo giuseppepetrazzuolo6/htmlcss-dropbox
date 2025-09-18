@@ -216,6 +216,15 @@ header {
         color: var(--db-btn);
     }
 
+
+
+    hr {
+        width: 50px;
+        margin-top: 50px;
+        margin-left: 20px;
+        border: 1px solid lightgray;
+    }
+
 }
 
 .option {
@@ -362,11 +371,16 @@ footer {
 
 }
 
-hr {
-    width: 120px;
-    margin-top: 60px;
-    border: 1px solid lightgray;
+.big-container {
+
+    hr {
+        width: 120px;
+        margin-top: 60px;
+        border: 1px solid lightgray;
+    }
+
 }
+
 
 .lenguage {
     color: var(--db-white);
